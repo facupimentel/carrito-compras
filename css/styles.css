@@ -1,0 +1,64 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+main  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(86, 107, 146);
+}
+
+main #productos, main #carrito {
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+main #productos div p, main #carrito div p {
+    padding: 5px;
+} 
+
+#productos, #carrito {
+    text-align: center;
+    width: 100%;
+    color: white;
+    padding: 80px;
+}
+
+h1, h2, main #total {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    background-color: darksalmon;
+    padding: 15px;
+}
+
+#comprar{
+    margin-top: 15px;
+    padding: 10px;
+}
+
+#vaciar-carrito {
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#compraHecha {
+    margin-top: 10px;
+    color: white;
+    padding: 15px;
+}
+
+button {
+    padding: 5px;
+}
+
+
+
